@@ -1,0 +1,187 @@
+Exception ignored in: <function _SelectorTransport.__del__ at 0xffffb0e2f0d0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 694, in __del__
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 650, in __repr__
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 37, in _test_selector_event
+NameError: name 'KeyError' is not defined
+Exception ignored in: <function BaseEventLoop.__del__ at 0xffffb0e61dc0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 654, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <function _SelectorTransport.__del__ at 0xffff8588f0d0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 694, in __del__
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 650, in __repr__
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 37, in _test_selector_event
+NameError: name 'KeyError' is not defined
+Exception ignored in: <function BaseEventLoop.__del__ at 0xffff858c1dc0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 654, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <function _SelectorTransport.__del__ at 0xffffb33d90d0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 694, in __del__
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 650, in __repr__
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 37, in _test_selector_event
+NameError: name 'KeyError' is not defined
+Exception ignored in: <function BaseEventLoop.__del__ at 0xffffb3408dc0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 654, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <function BaseEventLoop.__del__ at 0xffffb3408dc0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 654, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <function _SelectorTransport.__del__ at 0xffffb33d90d0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 694, in __del__
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 650, in __repr__
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 37, in _test_selector_event
+NameError: name 'KeyError' is not defined
+[Tue Apr 06 08:56:41.530810 2021] [wsgi:error] [pid 24937:tid 281472815878544] [remote 162.158.166.122:25016] mod_wsgi (pid=24937): Failed to exec Python script file '/home/ubuntu/web/jindan/jindan.wsgi'.
+[Tue Apr 06 08:56:41.530988 2021] [wsgi:error] [pid 24937:tid 281472815878544] [remote 162.158.166.122:25016] mod_wsgi (pid=24937): Exception occurred processing WSGI script '/home/ubuntu/web/jindan/jindan.wsgi'.
+[Tue Apr 06 08:56:41.549339 2021] [wsgi:error] [pid 24937:tid 281472815878544] [remote 162.158.166.122:25016] Traceback (most recent call last):
+[Tue Apr 06 08:56:41.549521 2021] [wsgi:error] [pid 24937:tid 281472815878544] [remote 162.158.166.122:25016]   File "/home/ubuntu/web/jindan/jindan.wsgi", line 5, in <module>
+[Tue Apr 06 08:56:41.556557 2021] [wsgi:error] [pid 24937:tid 281472815878544] [remote 162.158.166.122:25016]     from app import jindan as application
+[Tue Apr 06 08:56:41.556746 2021] [wsgi:error] [pid 24937:tid 281472815878544] [remote 162.158.166.122:25016] ModuleNotFoundError: No module named 'app'
+[Tue Apr 06 08:56:42.091126 2021] [wsgi:error] [pid 24937:tid 281472782307728] [remote 162.158.166.72:53502] mod_wsgi (pid=24937): Failed to exec Python script file '/home/ubuntu/web/jindan/jindan.wsgi'.
+[Tue Apr 06 08:56:42.091506 2021] [wsgi:error] [pid 24937:tid 281472782307728] [remote 162.158.166.72:53502] mod_wsgi (pid=24937): Exception occurred processing WSGI script '/home/ubuntu/web/jindan/jindan.wsgi'.
+[Tue Apr 06 08:56:42.091973 2021] [wsgi:error] [pid 24937:tid 281472782307728] [remote 162.158.166.72:53502] Traceback (most recent call last):
+[Tue Apr 06 08:56:42.092284 2021] [wsgi:error] [pid 24937:tid 281472782307728] [remote 162.158.166.72:53502]   File "/home/ubuntu/web/jindan/jindan.wsgi", line 5, in <module>
+[Tue Apr 06 08:56:42.092356 2021] [wsgi:error] [pid 24937:tid 281472782307728] [remote 162.158.166.72:53502]     from app import jindan as application
+[Tue Apr 06 08:56:42.092508 2021] [wsgi:error] [pid 24937:tid 281472782307728] [remote 162.158.166.72:53502] ModuleNotFoundError: No module named 'app'
+[Tue Apr 06 08:56:43.152711 2021] [wsgi:error] [pid 24937:tid 281472815878544] [remote 162.158.167.231:27216] mod_wsgi (pid=24937): Failed to exec Python script file '/home/ubuntu/web/jindan/jindan.wsgi'.
+[Tue Apr 06 08:56:43.152959 2021] [wsgi:error] [pid 24937:tid 281472815878544] [remote 162.158.167.231:27216] mod_wsgi (pid=24937): Exception occurred processing WSGI script '/home/ubuntu/web/jindan/jindan.wsgi'.
+[Tue Apr 06 08:56:43.153397 2021] [wsgi:error] [pid 24937:tid 281472815878544] [remote 162.158.167.231:27216] Traceback (most recent call last):
+[Tue Apr 06 08:56:43.153595 2021] [wsgi:error] [pid 24937:tid 281472815878544] [remote 162.158.167.231:27216]   File "/home/ubuntu/web/jindan/jindan.wsgi", line 5, in <module>
+[Tue Apr 06 08:56:43.153660 2021] [wsgi:error] [pid 24937:tid 281472815878544] [remote 162.158.167.231:27216]     from app import jindan as application
+[Tue Apr 06 08:56:43.153804 2021] [wsgi:error] [pid 24937:tid 281472815878544] [remote 162.158.167.231:27216] ModuleNotFoundError: No module named 'app'
+[Tue Apr 06 08:56:43.460541 2021] [wsgi:error] [pid 24937:tid 281472782307728] [remote 162.158.166.72:55998] mod_wsgi (pid=24937): Failed to exec Python script file '/home/ubuntu/web/jindan/jindan.wsgi'.
+[Tue Apr 06 08:56:43.460748 2021] [wsgi:error] [pid 24937:tid 281472782307728] [remote 162.158.166.72:55998] mod_wsgi (pid=24937): Exception occurred processing WSGI script '/home/ubuntu/web/jindan/jindan.wsgi'.
+[Tue Apr 06 08:56:43.461121 2021] [wsgi:error] [pid 24937:tid 281472782307728] [remote 162.158.166.72:55998] Traceback (most recent call last):
+[Tue Apr 06 08:56:43.461288 2021] [wsgi:error] [pid 24937:tid 281472782307728] [remote 162.158.166.72:55998]   File "/home/ubuntu/web/jindan/jindan.wsgi", line 5, in <module>
+[Tue Apr 06 08:56:43.461344 2021] [wsgi:error] [pid 24937:tid 281472782307728] [remote 162.158.166.72:55998]     from app import jindan as application
+[Tue Apr 06 08:56:43.461464 2021] [wsgi:error] [pid 24937:tid 281472782307728] [remote 162.158.166.72:55998] ModuleNotFoundError: No module named 'app'
+[Tue Apr 06 08:56:44.047542 2021] [wsgi:error] [pid 24937:tid 281472815878544] [remote 162.158.167.231:29144] mod_wsgi (pid=24937): Failed to exec Python script file '/home/ubuntu/web/jindan/jindan.wsgi'.
+[Tue Apr 06 08:56:44.047754 2021] [wsgi:error] [pid 24937:tid 281472815878544] [remote 162.158.167.231:29144] mod_wsgi (pid=24937): Exception occurred processing WSGI script '/home/ubuntu/web/jindan/jindan.wsgi'.
+[Tue Apr 06 08:56:44.048136 2021] [wsgi:error] [pid 24937:tid 281472815878544] [remote 162.158.167.231:29144] Traceback (most recent call last):
+[Tue Apr 06 08:56:44.048300 2021] [wsgi:error] [pid 24937:tid 281472815878544] [remote 162.158.167.231:29144]   File "/home/ubuntu/web/jindan/jindan.wsgi", line 5, in <module>
+[Tue Apr 06 08:56:44.048351 2021] [wsgi:error] [pid 24937:tid 281472815878544] [remote 162.158.167.231:29144]     from app import jindan as application
+[Tue Apr 06 08:56:44.048470 2021] [wsgi:error] [pid 24937:tid 281472815878544] [remote 162.158.167.231:29144] ModuleNotFoundError: No module named 'app'
+[Tue Apr 06 08:56:44.347172 2021] [wsgi:error] [pid 24937:tid 281472782307728] [remote 162.158.166.71:34326] mod_wsgi (pid=24937): Failed to exec Python script file '/home/ubuntu/web/jindan/jindan.wsgi'.
+[Tue Apr 06 08:56:44.347485 2021] [wsgi:error] [pid 24937:tid 281472782307728] [remote 162.158.166.71:34326] mod_wsgi (pid=24937): Exception occurred processing WSGI script '/home/ubuntu/web/jindan/jindan.wsgi'.
+[Tue Apr 06 08:56:44.347941 2021] [wsgi:error] [pid 24937:tid 281472782307728] [remote 162.158.166.71:34326] Traceback (most recent call last):
+[Tue Apr 06 08:56:44.348203 2021] [wsgi:error] [pid 24937:tid 281472782307728] [remote 162.158.166.71:34326]   File "/home/ubuntu/web/jindan/jindan.wsgi", line 5, in <module>
+[Tue Apr 06 08:56:44.348270 2021] [wsgi:error] [pid 24937:tid 281472782307728] [remote 162.158.166.71:34326]     from app import jindan as application
+[Tue Apr 06 08:56:44.348417 2021] [wsgi:error] [pid 24937:tid 281472782307728] [remote 162.158.166.71:34326] ModuleNotFoundError: No module named 'app'
+Exception ignored in: <function _SelectorTransport.__del__ at 0xffff9cf6e0d0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 694, in __del__
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 650, in __repr__
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 37, in _test_selector_event
+NameError: name 'KeyError' is not defined
+Exception ignored in: <function BaseEventLoop.__del__ at 0xffff9cf9ddc0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 654, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <function _SelectorTransport.__del__ at 0xffff838640d0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 694, in __del__
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 650, in __repr__
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 37, in _test_selector_event
+NameError: name 'KeyError' is not defined
+Exception ignored in: <function BaseEventLoop.__del__ at 0xffff83892dc0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 654, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <function _SelectorTransport.__del__ at 0xffffa98510d0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 694, in __del__
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 650, in __repr__
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 37, in _test_selector_event
+NameError: name 'KeyError' is not defined
+Exception ignored in: <function BaseEventLoop.__del__ at 0xffffa987fdc0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 654, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <function BaseEventLoop.__del__ at 0xffffb67c5dc0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 654, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <function _SelectorTransport.__del__ at 0xffffb67960d0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 694, in __del__
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 650, in __repr__
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 37, in _test_selector_event
+NameError: name 'KeyError' is not defined
+Exception ignored in: <function _SelectorTransport.__del__ at 0xffff8eee40d0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 694, in __del__
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 650, in __repr__
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 37, in _test_selector_event
+NameError: name 'KeyError' is not defined
+Exception ignored in: <function BaseEventLoop.__del__ at 0xffff8ef13dc0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 654, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <function _SelectorTransport.__del__ at 0xffffa17490d0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 694, in __del__
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 650, in __repr__
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 37, in _test_selector_event
+NameError: name 'KeyError' is not defined
+Exception ignored in: <function BaseEventLoop.__del__ at 0xffffa1777dc0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 654, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <function _SelectorTransport.__del__ at 0xffffac1ed0d0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 694, in __del__
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 650, in __repr__
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 37, in _test_selector_event
+NameError: name 'KeyError' is not defined
+Exception ignored in: <function BaseEventLoop.__del__ at 0xffffac21edc0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 654, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <function _SelectorTransport.__del__ at 0xffff932e80d0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 694, in __del__
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 650, in __repr__
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 37, in _test_selector_event
+NameError: name 'KeyError' is not defined
+Exception ignored in: <function BaseEventLoop.__del__ at 0xffff93316dc0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 654, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <function _SelectorTransport.__del__ at 0xffff885da0d0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 694, in __del__
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 650, in __repr__
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 37, in _test_selector_event
+NameError: name 'KeyError' is not defined
+Exception ignored in: <function BaseEventLoop.__del__ at 0xffff88608dc0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 654, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <function BaseEventLoop.__del__ at 0xffffa37b4dc0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 654, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <function _SelectorTransport.__del__ at 0xffffa37860d0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 694, in __del__
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 650, in __repr__
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 37, in _test_selector_event
+NameError: name 'KeyError' is not defined
+Exception ignored in: <function BaseEventLoop.__del__ at 0xffffa5667dc0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 654, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <function _SelectorTransport.__del__ at 0xffffa56380d0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 694, in __del__
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 650, in __repr__
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 37, in _test_selector_event
+NameError: name 'KeyError' is not defined
+[Wed Apr 07 10:15:40.542597 2021] [wsgi:error] [pid 53926:tid 281473408024976] [client 223.74.158.135:14142] mod_wsgi (pid=53926): Request data read error when proxying data to daemon process: The timeout specified has expired.
