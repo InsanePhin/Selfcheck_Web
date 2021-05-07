@@ -14,8 +14,10 @@ def privacy():
 @jindan.route("/r", methods=["POST"])
 def success():
     if request.method=="POST":
-        db = pymysql.connect(host='127.0.0.1', port=3306, user='root', passwd='1234qwer', db='selfcheck', charset='utf8')
+        #개인 서버에 맞게 수정하시면 됩니다.
+        db = pymysql.connect(host='127.0.0.1', port=3306, user='user', passwd='password', db='database', charset='utf8')
         cursor=db.cursor()
+        #데이터베이스 형식(전부 str) - name, birth, region, school, schooltype, password
 
         result=request.form
         

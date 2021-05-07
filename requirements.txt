@@ -1,0 +1,4 @@
+pip
+flask
+pymysql
+hcskr
