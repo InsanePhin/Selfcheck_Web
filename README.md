@@ -41,5 +41,5 @@ name, birth, region, school, schooltype, password
 
 ```
 $ pip install -r requirements.txt
-$ python garage.py
+$ python app.py
 ```
